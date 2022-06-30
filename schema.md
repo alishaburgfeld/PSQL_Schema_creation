@@ -1,19 +1,19 @@
 #Visualize your schema
 
-Open this file in your text editor and visualize your schema. At the top is your table name. Listed below are all the columns in that table. 
+Open this file in your text editor and visualize your schema. At the top is your table name. Listed below are all the columns in that table.
 
-User
--------------------
+## User
+
 id
 first_name
 last_name
 
-Address
--------------------
+## Address
+
 id
 user_id
-street 
-street2 
+street
+street2
 city
 state
 zip_code
@@ -28,3 +28,10 @@ Using the above format, jot down the database for your apps below!
 ## Blue Apron
 
 ## Instagram
+
+Schema Script
+Now that you've designed & revised the schema for three different applications, write a SQL script to create the matching schema in Postgresql.
+
+Choose two of the three schemas you've designed. Create different databases for each schema and separate create_schema.sql scripts for each database.
+
+Verify your schema using the \d command in the Postgresql console (psql). Also, for each table, write an INSERT query to verify your table is setup as expected.
